@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Github URI Scheme Handler
+Exec=handle-uri.sh %u github 'https://github.com/%s/%s' -d ggonnella -c 'xdg-open %s'
+StartupNotify=false
+MimeType=x-scheme-handler/github;

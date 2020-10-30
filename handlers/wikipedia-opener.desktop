@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Wikipedia URI Scheme Handler
+Exec=handle-uri.sh %u wikipedia 'https://%s.wikipedia.org/wiki/%s' -d en -c 'xdg-open %s'
+StartupNotify=false
+MimeType=x-scheme-handler/wikipedia;

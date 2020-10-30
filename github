@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# %-PURPOSE-%
+# open a page on github
+# Usage: github [user/]<repo>[/path]
+# if no user, my own username is used
+
+if command -v xdg-open &> /dev/null; then
+  xdg-open github:$*
+else
+  echo "error, check $0"
+fi
